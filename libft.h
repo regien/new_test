@@ -6,7 +6,7 @@
 /*   By: regien <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/09/27 19:34:42 by regien            #+#    #+#             */
-/*   Updated: 2017/10/21 20:24:01 by gmalpart         ###   ########.fr       */
+/*   Updated: 2017/10/21 22:02:20 by gmalpart         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -96,6 +96,8 @@ size_t				ft_wordcount(const char *str, char n);
 size_t				ft_wordlen(const char *str, int n);
 void				ft_swap(int *a, int *b);
 int					ft_iswspace(int c);
+int					ft_min(int c, int a);
+int					ft_max(int c, int a);
 
 /*
 **		LINKED LIST FUNCTIONS
